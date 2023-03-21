@@ -175,35 +175,35 @@ a{
     }
     #icon1{
         height: 300px;
-        width: 85%;
-        left: -2%;
+        width: 96%;
+        left: -8%;
     }
     #d1{
-        left: -2%;
+        left: -8%;
         top: -500px;
-        width: 85%;
+        width: 96%;
     }
     h1{
-        left: 13%;
+        left: 25%;
         width: 80%;
     }
     #p1{
-        left: 8%;
+        left: 13%;
         width: 90%;
-        font-size: 14px;
+        font-size: 17px;
     }
     #p2{
-        font-size: 14px;
+        font-size: 17px;
         width: 100%;
-        left: 30%;
+        left: 33%;
     }
     #background{
-        left: 10%;
+        left: -1%;
         top: -750px;
-        width: 60%;
+        width: 80%;
     }
     #song{
-        left: 13%;
+        left: 3%;
         top: -685px;
     }
     h2{
@@ -221,12 +221,76 @@ a{
         top: 80px;
     }
     #b1{
-        width: 80%;
+        width: 83%;
         left: -16px;
     }
     #b2{
+        width: 83%;
+        left: 7%;
+    }
+  }
+  @media only screen and (max-device-width: 320px) {
+    body{
+        position: relative;
+        left: 10%;
+    }
+    html{
+        height: 50vh;
+    }
+    #icon1{
+        height: 300px;
+        width: 96%;
+        left: -8%;
+    }
+    #d1{
+        left: -8%;
+        top: -500px;
+        width: 96%;
+    }
+    h1{
+        left: 17%;
         width: 80%;
-        left: 20px;
+    }
+    #p1{
+        left: 4%;
+        width: 100%;
+        font-size: 17px;
+    }
+    #p2{
+        font-size: 17px;
+        width: 100%;
+        left: 28%;
+    }
+    #background{
+        left: 0%;
+        top: -750px;
+        width: 80%;
+    }
+    #song{
+        left: 3%;
+        top: -685px;
+    }
+    h2{
+        left: 100px;
+        top: 110px;
+        font-size: 13px;
+    }
+    #p3{
+        left: 100px;
+        top: 115px;
+        font-size: 13px;
+    }
+    a{
+        left: 70%;
+        top: 80px;
+    }
+    #b1{
+        width: 83%;
+        left: -16px;
+    }
+    #b2{
+        width: 83%;
+        left: 8%;
     }
   }
  
