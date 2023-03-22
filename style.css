@@ -167,12 +167,14 @@ a{
   }
 @media only screen and (max-device-width: 375px) {
     body{
+        height: 300px;
         position: relative;
         left: 10%;
     }
-    html{
-        height: 50vh;
+    .sumir{
+        display: none;
     }
+    
     #icon1{
         height: 300px;
         width: 96%;
@@ -252,14 +254,14 @@ a{
         width: 80%;
     }
     #p1{
-        left: 4%;
+        left: 12%;
         width: 100%;
-        font-size: 17px;
+        font-size: 14px;
     }
     #p2{
-        font-size: 17px;
+        font-size: 14px;
         width: 100%;
-        left: 28%;
+        left: 32%;
     }
     #background{
         left: 0%;
